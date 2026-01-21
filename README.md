@@ -15,7 +15,8 @@ A production-minded prototype for automated clinical compliance checking and PHI
 
 This project is being built step-by-step:
 - **Step 1**: ✅ Scope Definition - See `docs/scope_specification.md`
-- **Step 2**: 🔄 Compliance Frameworks - See `docs/compliance_frameworks.md`
+- **Step 2**: ✅ Compliance Frameworks - See `docs/compliance_frameworks.md`
+- **Step 3**: ✅ PHI Handling Standard - See `docs/phi_handling_standard.md`
 
 ## Important Disclaimers
 
