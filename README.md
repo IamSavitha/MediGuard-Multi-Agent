@@ -2,9 +2,6 @@
 
 A production-minded prototype for automated clinical compliance checking and PHI redaction using LangGraph, GPT-4o, Pinecone RAG, and custom guardrails.
 
-## Project Status
-
-Currently implementing:  Scope Definition
 
 ## Architecture Overview
 
@@ -16,7 +13,9 @@ Currently implementing:  Scope Definition
 
 ## Getting Started
 
-This project is being built step-by-step. See `docs/scope_specification.md` for the current scope definition.
+This project is being built step-by-step:
+- **Step 1**: ✅ Scope Definition - See `docs/scope_specification.md`
+- **Step 2**: 🔄 Compliance Frameworks - See `docs/compliance_frameworks.md`
 
 ## Important Disclaimers
 
