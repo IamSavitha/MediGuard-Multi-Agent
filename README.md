@@ -4,7 +4,7 @@ A production-minded prototype for automated clinical compliance checking and PHI
 
 ## Project Status
 
-Currently implementing: **Step 1 of 50** - Scope Definition
+Currently implementing:  Scope Definition
 
 ## Architecture Overview
 
