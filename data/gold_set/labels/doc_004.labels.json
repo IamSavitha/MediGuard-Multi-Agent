@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "document_id": "doc_004",
+  "doc_type": "progress_note",
+  "jurisdiction": "US_FEDERAL",
+  "phi_spans": [
+    {
+      "phi_type": "person_name",
+      "start": 131,
+      "end": 136,
+      "text": "Emily"
+    }
+  ],
+  "compliance_expected": [
+    {
+      "rule_id": "HIPAA_SF_001",
+      "status": "fail"
+    },
+    {
+      "rule_id": "INT_DOC_001",
+      "status": "pass"
+    },
+    {
+      "rule_id": "INT_DOC_002",
+      "status": "pass"
+    },
+    {
+      "rule_id": "INT_DOC_003",
+      "status": "pass"
+    }
+  ]
+}

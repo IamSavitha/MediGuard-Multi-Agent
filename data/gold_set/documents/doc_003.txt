@@ -1,0 +1,9 @@
+LAB REPORT
+Patient: Robert Lee
+MRN: 000112233
+Ordering Provider: Dr. Alice Nguyen
+
+Test: CBC
+Result Date: 01/20/2026
+WBC: 7.2
+Hgb: 13.9

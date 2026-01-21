@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "document_id": "doc_001",
+  "doc_type": "progress_note",
+  "jurisdiction": "US_FEDERAL",
+  "phi_spans": [
+    {
+      "phi_type": "patient_name",
+      "start": 23,
+      "end": 33,
+      "text": "John Smith"
+    },
+    {
+      "phi_type": "date",
+      "start": 39,
+      "end": 49,
+      "text": "01/15/1985"
+    },
+    {
+      "phi_type": "mrn",
+      "start": 55,
+      "end": 65,
+      "text": "MRN-123456"
+    },
+    {
+      "phi_type": "phone",
+      "start": 73,
+      "end": 87,
+      "text": "(555) 123-4567"
+    }
+  ],
+  "compliance_expected": [
+    {
+      "rule_id": "HIPAA_SF_001",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_003",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_008",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_004",
+      "status": "fail"
+    },
+    {
+      "rule_id": "INT_DOC_001",
+      "status": "pass"
+    },
+    {
+      "rule_id": "INT_DOC_002",
+      "status": "pass"
+    },
+    {
+      "rule_id": "INT_DOC_003",
+      "status": "pass"
+    }
+  ]
+}

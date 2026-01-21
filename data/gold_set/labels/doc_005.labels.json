@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "document_id": "doc_005",
+  "doc_type": "progress_note",
+  "jurisdiction": "US_FEDERAL",
+  "phi_spans": [
+    {
+      "phi_type": "patient_name",
+      "start": 23,
+      "end": 34,
+      "text": "Thomas King"
+    },
+    {
+      "phi_type": "age_over_89",
+      "start": 40,
+      "end": 52,
+      "text": "92 years old"
+    },
+    {
+      "phi_type": "phone",
+      "start": 60,
+      "end": 72,
+      "text": "555.987.6543"
+    }
+  ],
+  "compliance_expected": [
+    {
+      "rule_id": "HIPAA_SF_001",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_003",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_004",
+      "status": "fail"
+    }
+  ]
+}

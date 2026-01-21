@@ -17,6 +17,13 @@ This project is being built step-by-step:
 - **Step 1**: ✅ Scope Definition - See `docs/scope_specification.md`
 - **Step 2**: ✅ Compliance Frameworks - See `docs/compliance_frameworks.md`
 - **Step 3**: ✅ PHI Handling Standard - See `docs/phi_handling_standard.md`
+- **Step 4**: ✅ Define Outputs - See `docs/outputs_specification.md`
+- **Step 5**: ✅ Threat Model & Trust Boundaries - See `docs/threat_model.md`
+- **Step 6**: ✅ Data Retention Strategy - See `docs/data_retention.md`
+- **Step 7**: ✅ Success Metrics - See `docs/metrics_specification.md`
+- **Step 8**: ✅ Gold Set + Baseline - See `data/gold_set/README.md`
+- **Step 9**: ✅ Stack & Repository Layout - See `docs/stack_and_layout.md`
+- **Step 10**: ✅ CI/CD Guardrails - See `.github/workflows/ci.yml`
 - **LLM Configuration**: See `docs/llm_configuration.md` (Ollama setup and structured outputs)
 
 ## Important Disclaimers

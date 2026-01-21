@@ -1,0 +1,12 @@
+DISCHARGE SUMMARY
+Name: Maria Garcia
+Date of Birth: 1992-07-03
+Account #: ACCT998877
+Email: maria.garcia@example.com
+Address: 742 Evergreen Terrace, Springfield
+
+Hospital Course:
+Admitted on 2026-01-18 and discharged on 2026-01-20.
+
+Discharge Meds:
+Aspirin 81 mg daily.

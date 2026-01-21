@@ -1,0 +1,10 @@
+PROGRESS NOTE
+Patient: Thomas King
+Age: 92 years old
+Phone: 555.987.6543
+
+Assessment:
+Hypertension.
+
+Plan:
+Continue current meds.

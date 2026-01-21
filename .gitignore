@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+
+# Local data (may contain synthetic PHI for testing)
+# Note: Keep gold_set/ but ignore any real PHI data
+data/synthetic/
+data/real_phi/  # Never commit real PHI
+*.phi.txt
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets (never commit)
+secrets/
+*.pem
+*.key
+*.secret
+
+# Policy documents (may be large, add back if needed)
+# policies/
+
+# Model artifacts (if storing locally)
+models/
+*.bin
+*.safetensors
+
+# Ollama models (local)
+.ollama/

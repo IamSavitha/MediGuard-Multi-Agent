@@ -1,0 +1,116 @@
+[tool.poetry]
+name = "mediguard"
+version = "0.1.0"
+description = "Multi-Agent Clinical Compliance Orchestrator"
+authors = ["MediGuard Team"]
+readme = "README.md"
+python = "^3.11"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.0"
+uvicorn = {extras = ["standard"], version = "^0.24.0"}
+langgraph = "^0.0.20"
+langchain = "^0.1.0"
+langchain-community = "^0.0.10"
+pydantic = "^2.5.0"
+pydantic-settings = "^2.1.0"
+pinecone-client = "^2.2.0"
+ollama = "^0.1.0"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.23"
+alembic = "^1.12.1"
+pypdf = "^3.17.0"
+python-docx = "^1.1.0"
+spacy = "^3.7.0"
+regex = "^2023.10.3"
+python-multipart = "^0.0.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.12.0"
+black = "^23.11.0"
+ruff = "^0.1.6"
+mypy = "^1.7.0"
+pre-commit = "^3.5.0"
+detect-secrets = "^1.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "N",   # pep8-naming
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "SIM", # flake8-simplify
+]
+ignore = [
+    "E501",  # line too long (handled by formatter)
+    "B008",  # do not perform function calls in argument defaults
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]  # unused imports in __init__ files
+"tests/*" = ["E501"]  # allow longer lines in tests
+
+[tool.ruff.lint.isort]
+known-first-party = ["mediguard"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--strict-markers",
+    "--tb=short",
+]
+markers = [
+    "unit: Unit tests",
+    "integration: Integration tests",
+    "slow: Slow running tests",
+]
+
+[tool.coverage.run]
+source = ["src/mediguard"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+    "*/migrations/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]

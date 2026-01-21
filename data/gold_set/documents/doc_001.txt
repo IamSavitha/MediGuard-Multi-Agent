@@ -1,0 +1,14 @@
+PROGRESS NOTE
+Patient: John Smith
+DOB: 01/15/1985
+MRN: MRN-123456
+Phone: (555) 123-4567
+
+HPI:
+Patient reports intermittent chest pain for 2 days.
+
+Assessment:
+Rule out ACS.
+
+Plan:
+EKG, troponin, follow up in 1 week.

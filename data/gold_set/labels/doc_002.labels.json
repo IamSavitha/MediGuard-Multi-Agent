@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "document_id": "doc_002",
+  "doc_type": "discharge_summary",
+  "jurisdiction": "US_FEDERAL",
+  "phi_spans": [
+    {
+      "phi_type": "patient_name",
+      "start": 24,
+      "end": 36,
+      "text": "Maria Garcia"
+    },
+    {
+      "phi_type": "date",
+      "start": 52,
+      "end": 62,
+      "text": "1992-07-03"
+    },
+    {
+      "phi_type": "account_number",
+      "start": 74,
+      "end": 84,
+      "text": "ACCT998877"
+    },
+    {
+      "phi_type": "email",
+      "start": 92,
+      "end": 116,
+      "text": "maria.garcia@example.com"
+    },
+    {
+      "phi_type": "address",
+      "start": 126,
+      "end": 160,
+      "text": "742 Evergreen Terrace, Springfield"
+    },
+    {
+      "phi_type": "date",
+      "start": 191,
+      "end": 201,
+      "text": "2026-01-18"
+    },
+    {
+      "phi_type": "date",
+      "start": 220,
+      "end": 230,
+      "text": "2026-01-20"
+    }
+  ],
+  "compliance_expected": [
+    {
+      "rule_id": "HIPAA_SF_001",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_003",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_010",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_006",
+      "status": "fail"
+    },
+    {
+      "rule_id": "HIPAA_SF_002",
+      "status": "fail"
+    },
+    {
+      "rule_id": "INT_DOC_004",
+      "status": "needs_review"
+    }
+  ]
+}
