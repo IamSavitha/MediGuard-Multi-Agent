@@ -135,7 +135,7 @@ Each identifier maps to specific detection and redaction logic:
 - **Coverage**: Contextual identifiers like "patient's daughter Emily..."
 - **When Used**: Only for segments where rules/NER disagree or low confidence
 - **Cost**: Higher, so used sparingly
-- **Example**: GPT-4o with structured outputs for PHI spans
+- **Example**: Ollama LLM (e.g., Llama 3.1, Mistral) with JSON mode for structured PHI span detection
 
 ### 2.5 Redaction Strategy
 

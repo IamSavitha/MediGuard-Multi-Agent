@@ -158,7 +158,7 @@ The system must produce **four types of outputs**:
 - **Ephemeral processing**: Patient documents processed in-memory; stored only if org policy allows
 
 ### Trust Boundaries
-- **OpenAI API**: Receives redacted documents only (after PHI removal)
+- **Ollama LLM (Local)**: Receives redacted documents only (after PHI removal), runs locally for privacy
 - **Pinecone**: Stores policy chunks only (never patient data)
 - **Logs/Audit Trail**: PHI-sanitized metadata only
 - **Reports**: Contain redacted content only

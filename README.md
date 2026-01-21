@@ -1,6 +1,6 @@
 # MediGuard: Multi-Agent Clinical Compliance Orchestrator
 
-A production-minded prototype for automated clinical compliance checking and PHI redaction using LangGraph, GPT-4o, Pinecone RAG, and custom guardrails.
+A production-minded prototype for automated clinical compliance checking and PHI redaction using LangGraph, Ollama (local LLM), Pinecone RAG, and custom guardrails.
 
 
 ## Architecture Overview
@@ -8,7 +8,7 @@ A production-minded prototype for automated clinical compliance checking and PHI
 - **API Layer**: FastAPI for REST endpoints
 - **Orchestration**: LangGraph for multi-agent workflow
 - **RAG**: Pinecone for policy retrieval with metadata filtering
-- **LLM**: GPT-4o with structured outputs
+- **LLM**: Ollama (local LLM) with structured outputs (JSON mode)
 - **Guardrails**: PHI detection, redaction, leakage checks, prompt injection defenses
 
 ## Getting Started
@@ -17,6 +17,7 @@ This project is being built step-by-step:
 - **Step 1**: ✅ Scope Definition - See `docs/scope_specification.md`
 - **Step 2**: ✅ Compliance Frameworks - See `docs/compliance_frameworks.md`
 - **Step 3**: ✅ PHI Handling Standard - See `docs/phi_handling_standard.md`
+- **LLM Configuration**: See `docs/llm_configuration.md` (Ollama setup and structured outputs)
 
 ## Important Disclaimers
 
